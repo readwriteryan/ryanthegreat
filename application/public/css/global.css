@@ -1,0 +1,281 @@
+/* CSS Reset */
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,cite,code,em,img,ins,strong,sub,sup,tt,var,s,b,u,i,q,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background: transparent;}body{line-height:1;font:1em/1.25 Tahoma,Verdana,Arial;}ol,ul{list-style: none;}blockquote,q{quotes: none;}blockquote:before,blockquote:after,q:before,q:after{content: '';content: none;}:focus{outline:0;}ins{text-decoration: none;}del{text-decoration: line-through;}table{border-collapse:collapse;border-spacing:0;}a,a:link,a:visited{text-decoration: none;}a:active,a:hover{text-decoration: underline;}button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"] > input[type="button"]::-moz-focus-inner{border: none;}
+
+a
+{
+    color: #02a2e0;
+    font-weight: bold;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+a:active, a:hover
+{
+    text-decoration: underline;
+}
+
+body
+{
+    color: #000000;
+    background: #000000;
+    background-image: url('/ryanthegreat/application/public/images/gradient.jpg');
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    padding-top: 10px;
+    text-align: center;
+    background-image: url('/ryanthegreat/application/public/images/header-small.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 112px;
+}
+
+nav
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+nav li
+{
+    font-family: 'Architects Daughter', Georgia, cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    display: inline;
+}
+
+nav a
+{
+    color: #ffffff;
+}
+
+footer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+article
+{
+    border-bottom: 1px solid #eee;
+}
+
+article pre
+{
+    padding: 10px;
+}
+article pre code
+{
+    width: 675px;
+    font-size: 12px;
+}
+
+.article-full
+{
+    border-bottom: none;
+}
+
+.article-full p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container
+{
+    width: 1000px;
+    background: #ffffff url('/ryanthegreat/application/public/images/sidebar-background.jpg') top right repeat-y;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-right: 1px solid #000000;
+    border-left:  1px solid #000000;
+    border-top: 1px solid #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    font-family: Cantarell, Verdana, serif;
+}
+
+article h1,#container h1, #comment h2
+{
+    color: #02a2e0;
+    font-family: 'Architects Daughter', Georgia, cursive;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+p.time
+{
+    padding-top: 20px;
+    text-align: right;
+}
+
+time
+{
+    color: #02a2e0;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 5px;
+}
+
+code
+{
+    overflow: auto;
+}
+
+#medium-content
+{
+    padding-top: 10px;
+    width: 720px;
+}
+
+#large-content
+{
+    padding-top: 10px;
+}
+
+.content
+{
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.content p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sidebox
+{
+    text-align: center;
+    width: 250px;
+    float: right;
+    padding-top: 10px;
+}
+#sidebox article
+{
+    border-bottom: none;
+}
+#sidebox article h1
+{
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+}
+
+#sidebox article h1 a
+{
+    color: #333333;
+}
+
+#sidebox article h2
+{
+    font-family: 'Architects Daughter', Georgia, cursive;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+    float: right;
+}
+
+#searchbox
+{
+    width: 200px;
+    border: 2px solid #999;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px -2px #333;
+    padding: 5px;
+}
+
+.aboutme
+{
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.sidebar-heading
+{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+}
+
+.sidebar-avatar
+{
+    height: 120px;
+    width: 90px;
+    padding: 5px;
+    float: right;
+}
+
+.comment
+{
+    margin-bottom: 20px;
+}
+
+.success
+{
+    width: 75%;
+    margin: 0 auto;
+    background: #90EE90;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.error
+{
+    width: 75%;
+    margin: 0 auto;
+    background: #FF0000;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
